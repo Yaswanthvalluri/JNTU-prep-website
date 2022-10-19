@@ -7,21 +7,27 @@
 
 body{
     background: #f2f2f2;
-
 }
 
 h1{
     padding: 10px 0 0 40px;
 }
-
+.Name{
+    margin: 15px 0 0 0;
+}
 img{
-    padding: 4px 0 9px 40px ;
+    margin: 4px 0 9px 40px ;
+    border: 4px solid rgb(0, 0, 0);
 }
 .provide{
     padding: 0 0 0 40px;
 }
+
+.table{
+    margin:5px 0 0 40px ;
+}
 nav{
-    background: green;
+    background: rgb(0, 128, 0);
     color: #ffffff;
 }
 
@@ -36,7 +42,7 @@ nav .name{
     color:white;
     font-weight: 600;
     font-size: 27px;
-    line-height: 70px;
+    line-height: 68px;
     padding-left:60px;
 }
 
@@ -48,7 +54,6 @@ nav ul{
 }
 
 nav ul li{
-    float: left;
     display: inline-block;
     background: green;
     margin: 0 5px;
@@ -60,6 +65,7 @@ nav ul li a{
     line-height: 70px;
     font-size: 18px;
     padding: 8px 15px;
+    align-content: center;
 }
 
 nav ul li a:hover{
